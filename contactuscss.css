@@ -1,0 +1,86 @@
+body {
+    background-color: #191B20;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+.homelink {
+    color: white;
+    font-size: 30px;
+    margin-left:15px;
+}
+.logoimg {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.forrent {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.heading {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.contactus {
+    color: #CB74F4;
+}
+.bottom {
+    background-color: #D6BBF0;
+    width: 100%;
+    margin-top: 80px;
+    padding: 1px;
+}
+.contact {
+    margin-left: 10px;
+    color: black;
+}
+.forma {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+label {
+    display: block;
+    float: right;
+    width: 200px;
+    height: 65px;
+}
+
+.submit {
+    padding: 20px;
+    width: 200px;
+    background-color: #CB74F4;
+    font-size: 20px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    margin:10px;
+    
+  
+}
+
+.submitbtn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width:500px) {
+     .logoimage {
+         width: 100px;
+     }
+      
+      .heading {
+          font-size: 20px;
+          margin-left: 40px;
+          margin-bottom: 0;
+      }
+      .imagecontacts{
+          width: 200px;
+      }
+
+  }    

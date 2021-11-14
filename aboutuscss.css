@@ -1,0 +1,72 @@
+body {
+    background-color: #191B20;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.aboutheader {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.homelink {
+    color: white;
+    font-size: 30px;
+    margin-left:15px;
+}
+.about {
+
+margin-left: 30px;
+font-size: 40px;
+font-weight: 400;
+color: white;
+}
+.bottom {
+    background-color: #D6BBF0;
+    width: 100%;
+    color: black;
+    margin-top: 20px;
+    padding: 1px;
+    
+}
+
+.contact {
+    margin-left: 10px;
+}
+.block1, .block2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.real {
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
+}
+.years {
+    color: #CB74F4;
+}
+
+@media all and (max-width:800px) {
+.imgabout{
+    width: 300px;
+    margin-left: 30px;
+}
+
+.real {
+    width: 100%;
+    padding: 30px;
+    text-align: justify;
+}
+
+  }    
+
+
+@media all and (max-width:500px) {
+    .about {
+
+        margin-left: 30px;
+        font-size: 20px;
+        font-weight: normal;
+        }
+ 
+}    

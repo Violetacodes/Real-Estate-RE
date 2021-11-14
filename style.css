@@ -1,0 +1,237 @@
+body {
+    background-color: #191B20;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.header {
+    font-size: 20px;
+}
+
+.hamburger {
+    padding: 7px;
+    width: 50px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+ }
+
+ .nav-ul{
+     display: flex;
+     justify-content: space-around;
+     padding: 30px;
+     width: 50%;
+ }
+
+ .link {
+     text-decoration: none;
+     outline: none;
+     color: white;
+ }
+
+ .link:hover {
+     background-color: #d396f0;
+     cursor: pointer;
+ }
+ .heading {
+     font-size: 60px;
+     margin-left: 40px;
+     margin-bottom: 0;
+     
+ }
+ span {
+     color: #CB74F4;
+ }
+.lease {
+    margin-top: 0;
+    color: #D6BBF0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.steps {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.parent {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.house {
+    margin-top: 55px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    
+}
+.findbtn {
+    padding: 20px;
+    width: 240px;
+    background-color: #CB74F4;
+    font-size: 20px;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.bottom {
+    background-color: #D6BBF0;
+    width: 100%;
+    color: black;
+    margin-top: 80px;
+    padding: 1px;
+    position: fixed;
+}
+
+.contact {
+    margin-left: 10px;
+}
+
+.agentpar {
+    text-decoration:none;
+}
+
+
+@media all and (max-width:800px) {
+    .nav-ul{
+        display: none;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+   .show {
+      display: flex;
+      font-size: 15px;
+      
+  }
+      .hamburger{
+          display: block;
+      }
+  
+     
+     .logoimage {
+         width: 200px;
+     }
+      
+      .heading {
+          font-size: 20px;
+          margin-left: 40px;
+          margin-bottom: 0;
+      }
+      .lease {
+          margin-top: 0;
+          color: #D6BBF0;
+          font-weight: bold;
+          font-size: 15px;
+          margin-left: 40px;
+      }
+      
+      .steps {
+          margin-top: 0;
+          font-weight: bold;
+          font-size: 10px;
+          margin-left: 40px;
+      }
+      .house {
+          width: 200px;
+      }
+      .findbtn {
+        padding: 15px;
+        width: 160px;
+        background-color: #CB74F4;
+        font-size: 17px;
+        color: white;
+        border: none;
+        font-weight: 700;
+    }
+    .bottom{
+        display: none;
+    }
+  
+  }    
+
+@media all and (max-width:500px) {
+  .nav-ul{
+      display: none;
+      width: 100%;
+      align-items: flex-end;
+      flex-direction: column;
+  }
+
+ .show {
+    display: flex;
+    font-size: 15px;
+}
+    .hamburger{
+        display: block;
+    }
+   .logoimage {
+       width: 200px;
+   }
+    
+    .heading {
+        font-size: 20px;
+        margin-left: 40px;
+        margin-bottom: 0;
+    }
+    .lease {
+        margin-top: 0;
+        color: #D6BBF0;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    
+    .steps {
+        margin-top: 0;
+        font-weight: bold;
+        font-size: 10px;
+        margin-left: 40px;
+    }
+    .house {
+        width: 200px;
+    }
+    .findbtn {
+        padding: 15px;
+        width: 120px;
+        background-color: #CB74F4;
+        font-size: 10px;
+        color: white;
+        border: none;
+        font-weight: 700;
+    }
+    .bottom {
+        background-color: #D6BBF0;
+        width: 100%;
+        color: black;
+        margin-top: 180px;
+        padding: 1px;
+    }
+
+    .contact {
+        font-size: 12px;
+    }
+
+}    
